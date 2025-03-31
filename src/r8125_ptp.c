@@ -304,7 +304,7 @@ static int rtl8125_phc_enable(struct ptp_clock_info *ptp,
 }
 
 int rtl8125_get_ts_info(struct net_device *netdev,
-                        struct ethtool_ts_info *info)
+                        struct kernel_ethtool_ts_info *info)
 {
         struct rtl8125_private *tp = netdev_priv(netdev);
 
